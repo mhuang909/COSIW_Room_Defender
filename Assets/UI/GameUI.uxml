@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="HealthBarBackground" style="flex-grow: 1; position: absolute; width: 500px; height: 150px; background-image: url(&quot;project://database/Assets/HealthbarBackground.png?fileID=2800000&amp;guid=f6a7b839123a55749b0bed6231271a83&amp;type=3#HealthbarBackground&quot;);">
+        <engine:VisualElement name="HealthBarMask" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; overflow: hidden;">
+            <engine:VisualElement name="HealthBarFill" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/HealthBarFill.png?fileID=2800000&amp;guid=abb085911c448bb45a4d95ae501aa1e5&amp;type=3#HealthBarFill&quot;); position: absolute; width: 500px; height: 100%; overflow: visible;" />
+        </engine:VisualElement>
+        <engine:Label text="Label" name="HealthLabel" style="position: absolute; width: 100%; height: 100%; -unity-text-align: middle-left; font-size: 28px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 50px;" />
+    </engine:VisualElement>
+</engine:UXML>
